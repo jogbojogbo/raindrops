@@ -1,0 +1,25 @@
+{
+  "name": "v1.0",
+  "version": "1.0.0",
+  "description": "a simple description function",
+  "main": "./src/raindrops",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/*.js --require babel-register --reporter spec || exit 0"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Jogbojogbo Abdulrahman",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
